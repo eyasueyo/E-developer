@@ -214,7 +214,7 @@ body {
 body {
   /* background-color:#faf6f6; */
   height: 100%;
-  font-size: 15px;
+  font-size: 20px;     
   color: #212d31;
   font-family: "Poppins", sans-serif;
   vertical-align: baseline;
@@ -268,6 +268,8 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-size: 30px;
+  color: #09c48c;
   margin: 0 0 26px;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
@@ -547,8 +549,16 @@ ul {
   color: #09c48c;
   padding-left: 15px; 
 }
-.header-area .support-area {
-  margin: 25px;
+/* .header-area .support {
+  margin: 40px;
+  color: #09c48c;
+} */
+
+ .support-area {
+  margin: 40px;
+  color: #09c48c;
+  font-size: 24px;
+  font-weight: 200
 }
 
 /*---------------------------
@@ -2097,7 +2107,7 @@ ul {
 -----------------------------*/
 .breadcrumb-area {
   padding: 155px 0;
-  background: url(../images/banner/contact3.jpg);
+  background: url(../images/banner/background.jpeg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2355,9 +2365,10 @@ ul {
   color: #11c690;
 }
 .service-page-wrapper .service-area .single-service .service-tite h3 {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 600;
-  color: #212d31;
+  /* color: #212d31; */
+  color: #11c690;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
@@ -4186,17 +4197,18 @@ ul {
   background: #f4f6f7;
 }
 .plan-area h2 {
-  font-size: 32px;
+
+  font-size: 30px;
   line-height: 48px;
   font-weight: 600;
-  color: #212d31;
+  color: #09c48c;
   margin-bottom: 10px;
 }
 .plan-area p {
   margin-bottom: 15px;
-  color: #212d31;
+  color: 
   font-weight: 400;
-  font-size: 15px;
+  font-size: 20px;
 }
 .plan-area .plan-btn {
   margin-top: 25px;

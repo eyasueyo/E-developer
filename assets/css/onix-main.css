@@ -74,6 +74,7 @@ table content
 
 /* } */
 
+
 #roww{
   width: 15%;
   margin-left: 45%;
@@ -214,7 +215,7 @@ body {
 body {
   /* background-color:#faf6f6; */
   height: 100%;
-  font-size: 15px;
+  font-size: 20px;
   color: #212d31;
   font-family: "Poppins", sans-serif;
   vertical-align: baseline;
@@ -254,7 +255,7 @@ a:focus {
 
 img {
   max-width: 100%;
-  height: auto;
+  /* height: 100px; */
   
 
 }
@@ -1650,7 +1651,7 @@ ul {
 /*---------------------------
 -----------------------------*/
 .counter-two-area {
-  background: url(../../assets/images/counter/kidy.jpg);
+  background: url(../../assets/images/banner/aaa.gif);
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -2097,7 +2098,7 @@ ul {
 -----------------------------*/
 .breadcrumb-area {
   padding: 155px 0;
-  background: url(../images/banner/contact3.jpg);
+  background: url(../images/banner/aaa.gif);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2185,10 +2186,11 @@ ul {
   position: relative;
   z-index: 1;
 }
-.about-page-wrapper .work-area .single-work .work-title h3 {
-  font-size: 20px;
+.about-page-wrapper .work-area .single-work .work-title h2 {
+  font:italic small-caps bold 22px/39px Georgia, serif;
+  font-size: 30px;
   font-weight: 600;
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: #09c48c;
   margin-bottom: 20px;
 }
@@ -4117,9 +4119,10 @@ ul {
   margin-bottom: 45px;
 }
 .newsletter-area .newsletter-content h2 {
+  font:italic small-caps bold 22px/39px Georgia, serif;
   font-size: 32px;
   line-height: 48px;
-  color: #212d31;
+  color: #09c48c;
   font-weight: 600;
   text-transform: capitalize;
   margin-bottom: 20px;

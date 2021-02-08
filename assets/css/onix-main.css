@@ -2375,6 +2375,7 @@ ul {
   color: #11c690;
 }
 .service-page-wrapper .service-area .single-service .service-tite h3 {
+  /* font:italic small-caps bold 22px/39px Georgia, serif; */
   font-size: 30px;
   font-weight: 600;
   /* color: #212d31; */

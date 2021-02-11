@@ -704,8 +704,8 @@ ul {
 /*---------------------------
 -----------------------------*/
 .btn-primary {
-  margin-top: 20%;
-  margin-left: 280%;
+  margin-top: -20%;
+  margin-left: 400%;
   background: #09c48c;
   border: 0 none;
   color: #131010;
@@ -986,13 +986,15 @@ ul {
 .portfolio-area .portfolio .filtering-button a {
   display: inline-block;
   cursor: pointer;
-  padding: 8px 30px;
-  color: #09c48c;
+  padding: 10px 30px;
+  color:black;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 600;
-  border: 1px solid #09c48c;
-  margin: 0 13px;
+  /* border: 1px solid #09c48c; */
+  margin: 0px 0px;
+  margin-left: -3%;
+  margin-bottom: -20px;
   -webkit-transition: all 300ms;
   -o-transition: all 300ms;
   transition: all 300ms;
@@ -1007,7 +1009,7 @@ ul {
   color: #ffffff;
 }
 .portfolio-area .portfolio .filtering-button a.active {
-  color: #ffffff;
+  color:black;
   background: #09c48c;
 }
 .portfolio-area .portfolio .single-portfolio {
